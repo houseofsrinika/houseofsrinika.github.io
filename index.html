@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House of Srinika</title>
+<style>
+  :root {
+    --midnight: #0D0A1C; --violet: #181230; --veil: #241B42;
+    --gold: #E2B14C; --lavender: #A89DC6; --ivory: #F1ECDF; --blue: #8FA8E8;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: Georgia, 'Noto Serif', serif;
+    background: linear-gradient(180deg, var(--midnight), var(--violet));
+    color: var(--ivory); min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 64px 24px 48px; line-height: 1.7;
+  }
+  .brand {
+    font-size: 0.8rem; letter-spacing: 0.35em; color: var(--lavender);
+    text-transform: uppercase;
+  }
+  h1 { font-size: 2rem; font-weight: 500; margin: 12px 0 8px; text-align: center; }
+  .tagline { color: var(--lavender); font-size: 0.95rem; margin-bottom: 48px;
+             text-align: center; }
+  .card {
+    max-width: 560px; width: 100%;
+    border: 1px solid var(--veil); border-radius: 20px;
+    padding: 28px 28px 24px; margin-bottom: 24px;
+  }
+  .card h2 { font-size: 1.25rem; font-weight: 500; color: var(--gold); }
+  .card p { color: var(--lavender); font-size: 0.95rem; margin: 10px 0 18px; }
+  .links a {
+    display: inline-block; margin-right: 18px; color: var(--blue);
+    font-size: 0.9rem; text-decoration: none; border-bottom: 1px solid transparent;
+  }
+  .links a:hover { border-bottom-color: var(--blue); }
+  .soon { color: var(--veil); font-size: 0.9rem; }
+  footer { margin-top: auto; padding-top: 48px; color: var(--lavender);
+           font-size: 0.8rem; text-align: center; }
+  footer a { color: var(--lavender); }
+</style>
+</head>
+<body>
+  <div class="brand">House of Srinika</div>
+  <h1>Apps made with love</h1>
+  <p class="tagline">Small, quiet tools for a devotional life.</p>
+
+  <div class="card">
+    <h2>Surat Shabd Yoga — The Inner Practice</h2>
+    <p>A calm, bell-guided meditation timer for Simran, Dhyan and Bhajan,
+       with gentle hourly remembrance reminders. Free, offline, and private —
+       in English, हिंदी, ಕನ್ನಡ and తెలుగు.</p>
+    <div class="links">
+      <!-- Add the Play Store link once the app is published:
+      <a href="https://play.google.com/store/apps/details?id=com.srinika.surat_shabd_yoga">Google Play</a>
+      -->
+      <span class="soon">Coming soon to Google Play ·&nbsp;</span>
+      <a href="surat-shabd-yoga/privacy.html">Privacy policy</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>House of Srinika · <a href="mailto:houseofsrinika@gmail.com">houseofsrinika@gmail.com</a></p>
+    <p>Radhaswamy 🙏</p>
+  </footer>
+</body>
+</html>
